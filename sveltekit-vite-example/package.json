@@ -11,15 +11,15 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "type": "module",
-  "repository": "https://github.com/poad/es-examples/tree/main/next-examples/sveltekit-vite-example",
+  "repository": "https://github.com/poad/sveltekit-example/tree/main/sveltekit-vite-example",
   "author": "poad",
   "license": "MIT",
   "devDependencies": {
     "@sveltejs/adapter-node": "^1.0.0-next.56",
     "@sveltejs/kit": "^1.0.0-next.201",
     "@types/cookie": "^0.4.1",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
-    "@typescript-eslint/parser": "^5.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "autoprefixer": "^10.4.0",
     "cssnano": "^5.0.13",
     "eslint": "^8.5.0",
