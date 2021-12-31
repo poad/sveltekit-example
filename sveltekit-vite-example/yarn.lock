@@ -98,12 +98,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-node@^1.0.0-next.56":
-  version "1.0.0-next.56"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.56.tgz#fc17490598380809ed85adec4eb4dfd2b7edf971"
-  integrity sha512-NY3CFUeczH/1g3rOtq9blHJ4Am99ZiUVVDibioD5GFctBH27TDVeZrpssGWngD0Ybkojpl8fXR7mTZZdOEx9qg==
+"@sveltejs/adapter-node@^1.0.0-next.58":
+  version "1.0.0-next.58"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.58.tgz#693237d86bccc70783c7d48a781be4307110c412"
+  integrity sha512-XU+QV5qIhHE8hNu2DmhWdpW4m5O7yq/Dw12eHI2rzZkSsiLPzIryKK7221vmjGCRUVmsLHeBf2VPk9T4pKM6Aw==
   dependencies:
-    esbuild "^0.13.15"
     tiny-glob "^0.2.9"
 
 "@sveltejs/kit@^1.0.0-next.210":
@@ -902,7 +901,7 @@ esbuild-windows-arm64@0.13.15:
   resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.13.15.tgz#482173070810df22a752c686509c370c3be3b3c3"
   integrity sha512-zzvyCVVpbwQQATaf3IG8mu1IwGEiDxKkYUdA4FpoCHi1KtPa13jeScYDjlW0Qh+ebWzpKfR2ZwvqAQkSWNcKjA==
 
-esbuild@^0.13.12, esbuild@^0.13.15:
+esbuild@^0.13.12:
   version "0.13.15"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.13.15.tgz#db56a88166ee373f87dbb2d8798ff449e0450cdf"
   integrity sha512-raCxt02HBKv8RJxE8vkTSCXGIyKHdEdGfUmiYb8wnabnaEmHzyW7DCHb5tEN0xU8ryqg5xw54mcwnYkC4x3AIw==

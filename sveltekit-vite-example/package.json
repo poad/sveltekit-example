@@ -15,7 +15,7 @@
   "author": "poad",
   "license": "MIT",
   "devDependencies": {
-    "@sveltejs/adapter-node": "^1.0.0-next.56",
+    "@sveltejs/adapter-node": "^1.0.0-next.58",
     "@sveltejs/kit": "^1.0.0-next.210",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
