@@ -105,10 +105,10 @@
   dependencies:
     tiny-glob "^0.2.9"
 
-"@sveltejs/kit@^1.0.0-next.214":
-  version "1.0.0-next.214"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.214.tgz#a8997c33c0669cb5c6a8431757aba1c81ec35f7a"
-  integrity sha512-rzEM/1zomAGOs8L8kZAf8Aj3GKi8+kF5VJbFbvQVGfH2ug+MiyvLDQE2LthZRTGZ4weqJ3Nt+ba0swClsL3T0A==
+"@sveltejs/kit@^1.0.0-next.215":
+  version "1.0.0-next.215"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.215.tgz#1054386d013a5818a10d569506ad54516bc52d57"
+  integrity sha512-3y6NFKacahEjgAuGNgs49t2Jf708syKEf6A7uf0dXoQXq3giF+/O1XDF4f+I2g/39iiOtkJMW10tyvIiRG22Hw==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     sade "^1.7.4"
