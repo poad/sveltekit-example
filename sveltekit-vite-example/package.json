@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@sveltejs/adapter-node": "^1.0.0-next.58",
-    "@sveltejs/kit": "^1.0.0-next.213",
+    "@sveltejs/kit": "^1.0.0-next.215",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
@@ -30,7 +30,7 @@
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-svelte3": "^3.2.1",
     "postcss": "^8.4.5",
-    "postcss-load-config": "^3.1.0",
+    "postcss-load-config": "^3.1.1",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.1",
     "svelte": "^3.44.3",
