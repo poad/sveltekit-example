@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@sveltejs/adapter-node": "^1.0.0-next.61",
-    "@sveltejs/kit": "^1.0.0-next.223",
+    "@sveltejs/kit": "^1.0.0-next.225",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
