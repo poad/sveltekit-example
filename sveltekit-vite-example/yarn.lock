@@ -105,10 +105,10 @@
   dependencies:
     tiny-glob "^0.2.9"
 
-"@sveltejs/kit@^1.0.0-next.247":
-  version "1.0.0-next.247"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.247.tgz#830a41a5c1529abe4ff5ff6c5d1d179165d7bce5"
-  integrity sha512-8xoSxJ3+Zid4y53dXd9lTLp94heYV1qmCEN6K2sjkFNELy2VaQ0/AWj2z0HWMnUQ2/iojb63OQvdXC46NaV+sQ==
+"@sveltejs/kit@^1.0.0-next.251":
+  version "1.0.0-next.251"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.251.tgz#66e36c3187353acf0165cdd7437ff6732a759f52"
+  integrity sha512-7GtUrUHqOa7ISo86PlICcMKcfGodOZwP9p7hXnN4t1yMWIQD2eKZlJffvnwx1X+NMcJ8hLChgcjGYjc1xZABhQ==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     sade "^1.7.4"
@@ -1832,9 +1832,9 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 postcss-calc@^8.2.0:
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-8.2.2.tgz#9706e7399e8ec8b61a47830dcf1f21391af23373"
-  integrity sha512-B5R0UeB4zLJvxNt1FVCaDZULdzsKLPc6FhjFJ+xwFiq7VG4i9cuaJLxVjNtExNK8ocm3n2o4unXXLiVX1SCqxA==
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-8.2.3.tgz#53b95ce93de19213c2a5fdd71277a81690ef41d0"
+  integrity sha512-EGM2EBBWqP57N0E7N7WOLT116PJ39dwHVU01WO4XPPQLJfkL2xVgkMZ+TZvCfapj/uJH07UEfKHQNPHzSw/14Q==
   dependencies:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.0.2"
@@ -2349,10 +2349,10 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.2:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte2tsx@^0.4.14:
-  version "0.4.14"
-  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.4.14.tgz#6c3d65eee8d00d6de2c061e836c6bb4f0c6c43b8"
-  integrity sha512-udF0Z/DA98OfjPFBU1GBJRpYHEvsxA8ozwYVN08AOWMnQyxoSyWWlYspiq2m9xAjLo/pWnhec9z1d6jc9umqjA==
+svelte2tsx@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.0.tgz#ca0f558d7ab28203d24056f3ab65b9005c124ad6"
+  integrity sha512-pgMMPzPylwzb/XTLXZQ0y6LUlYzVTep4537NJzHNyTbML864pfVS27iVFOgUK7XmKLyuIdG7tgweUZTsIwgKHw==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"
