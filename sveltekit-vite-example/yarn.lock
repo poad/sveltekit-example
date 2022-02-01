@@ -105,10 +105,10 @@
   dependencies:
     tiny-glob "^0.2.9"
 
-"@sveltejs/kit@^1.0.0-next.251":
-  version "1.0.0-next.251"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.251.tgz#66e36c3187353acf0165cdd7437ff6732a759f52"
-  integrity sha512-7GtUrUHqOa7ISo86PlICcMKcfGodOZwP9p7hXnN4t1yMWIQD2eKZlJffvnwx1X+NMcJ8hLChgcjGYjc1xZABhQ==
+"@sveltejs/kit@^1.0.0-next.252":
+  version "1.0.0-next.252"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.252.tgz#8b469bd74acb12a087c65e08e85e6d3ce2daae0c"
+  integrity sha512-cUreghq9H4WZyqwR/whBP1w+IQbR/VYKCmOduBYykj1lSeVZrUIlX+usxpNTtOCmekP7RPGDhQHfYyb58FbD3g==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     sade "^1.7.4"
@@ -200,6 +200,14 @@
     "@typescript-eslint/types" "5.10.2"
     "@typescript-eslint/visitor-keys" "5.10.2"
 
+"@typescript-eslint/scope-manager@5.10.2":
+  version "5.10.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/scope-manager/-/scope-manager-5.10.2.tgz#92c0bc935ec00f3d8638cdffb3d0e70c9b879639"
+  integrity sha512-39Tm6f4RoZoVUWBYr3ekS75TYgpr5Y+X0xLZxXqcZNDWZdJdYbKd3q2IR4V9y5NxxiPu/jxJ8XP7EgHiEQtFnw==
+  dependencies:
+    "@typescript-eslint/types" "5.10.2"
+    "@typescript-eslint/visitor-keys" "5.10.2"
+
 "@typescript-eslint/type-utils@5.10.2":
   version "5.10.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-5.10.2.tgz#ad5acdf98a7d2ab030bea81f17da457519101ceb"
@@ -227,6 +235,19 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
+"@typescript-eslint/typescript-estree@5.10.2":
+  version "5.10.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.10.2.tgz#810906056cd3ddcb35aa333fdbbef3713b0fe4a7"
+  integrity sha512-WHHw6a9vvZls6JkTgGljwCsMkv8wu8XU8WaYKeYhxhWXH/atZeiMW6uDFPLZOvzNOGmuSMvHtZKd6AuC8PrwKQ==
+  dependencies:
+    "@typescript-eslint/types" "5.10.2"
+    "@typescript-eslint/visitor-keys" "5.10.2"
+    debug "^4.3.2"
+    globby "^11.0.4"
+    is-glob "^4.0.3"
+    semver "^7.3.5"
+    tsutils "^3.21.0"
+
 "@typescript-eslint/utils@5.10.2":
   version "5.10.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.10.2.tgz#1fcd37547c32c648ab11aea7173ec30060ee87a8"
@@ -238,6 +259,14 @@
     "@typescript-eslint/typescript-estree" "5.10.2"
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
+
+"@typescript-eslint/visitor-keys@5.10.2":
+  version "5.10.2"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.10.2.tgz#fdbf272d8e61c045d865bd6c8b41bea73d222f3d"
+  integrity sha512-zHIhYGGGrFJvvyfwHk5M08C5B5K4bewkm+rrvNTKk1/S15YHR+SA/QUF8ZWscXSfEaB8Nn2puZj+iHcoxVOD/Q==
+  dependencies:
+    "@typescript-eslint/types" "5.10.2"
+    eslint-visitor-keys "^3.0.0"
 
 "@typescript-eslint/visitor-keys@5.10.2":
   version "5.10.2"
@@ -2317,10 +2346,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-check@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.4.0.tgz#7c008054cde876bea4aa3e5adc99c200d426478e"
-  integrity sha512-IBPK3MJPNEYoDGE1GF12JgvL2+5hzFtEF79jjwFDaBE6LMiKCyDn69NBXoVaNlTBfnfZb3ZkgUAG6U+QtAkVYQ==
+svelte-check@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.4.1.tgz#e1e8d813bf7906a5ee84dfe437da6f128a218434"
+  integrity sha512-xhf3ShP5rnRwBokrgTBJ/0cO9QIc1DAVu1NWNRTfCDsDBNjGmkS3HgitgUadRuoMKj1+irZR/yHJ+Uqobnkbrw==
   dependencies:
     chokidar "^3.4.1"
     fast-glob "^3.2.7"
@@ -2349,10 +2378,10 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.2:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte2tsx@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.0.tgz#ca0f558d7ab28203d24056f3ab65b9005c124ad6"
-  integrity sha512-pgMMPzPylwzb/XTLXZQ0y6LUlYzVTep4537NJzHNyTbML864pfVS27iVFOgUK7XmKLyuIdG7tgweUZTsIwgKHw==
+svelte2tsx@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.1.tgz#9c2529d801fbbdb6d4daa81841c623aed7d56674"
+  integrity sha512-pTOdXj2LbjkIdwaMrTtdwW9QbUpZQO4bs2v4n8fHmOft6cyD/wKD1C/InKC0lAC7CuqPuoR1RaJh+FJ0h7kj1A==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"
