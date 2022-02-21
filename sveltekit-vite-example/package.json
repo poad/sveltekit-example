@@ -43,7 +43,7 @@
     "vite": "^2.8.4"
   },
   "dependencies": {
-    "@fontsource/fira-mono": "^4.5.2",
+    "@fontsource/fira-mono": "^4.5.3",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.2"
   }
