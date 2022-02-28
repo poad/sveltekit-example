@@ -98,10 +98,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-node@^1.0.0-next.69":
-  version "1.0.0-next.69"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.69.tgz#b1bec2f88bfc90a7819914f652f1f8cecb6e83a8"
-  integrity sha512-tVKwJ8vYG4NGFJ5L+tRuyRglGPaJ1khNqTKq4bYIUahk/pjXIu9USbMmFtNHd6IyDdxjPtRoVwHubAYfTQLTpg==
+"@sveltejs/adapter-node@^1.0.0-next.70":
+  version "1.0.0-next.70"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.70.tgz#6dd3fb04d94895f6051b83292ad6f6facbccb7a0"
+  integrity sha512-9EtqSTxVOipESyPQH8uVdkl+iSqsq3oRKS3RZoE2vAG9I849MuTTxr1g9L4kALbXaklsYRztwhmrLpTdcSM4vA==
   dependencies:
     tiny-glob "^0.2.9"
 
