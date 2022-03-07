@@ -22,7 +22,7 @@ const config = {
           $layouts: resolve("src/app/_layouts"),
         },
         build: {
-          sourceMap: false,
+          sourceMap: true,
         },
       },
     }),
