@@ -1355,9 +1355,9 @@ domutils@^2.8.0:
     domhandler "^4.2.0"
 
 electron-to-chromium@^1.4.76:
-  version "1.4.79"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.79.tgz#02b504e1e6039b2e61edfc5f856895a0927925f5"
-  integrity sha512-nWfAxof87mGHkbORCwVRPst4FlSVdprOKS6dBMrcwn3sjwf8iHXEhsu1+FU5Psd7Ps3KKeBufAdfsPK5BmbSUg==
+  version "1.4.81"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.81.tgz#a9ce8997232fb9fb0ec53de8931a85b18c0a7383"
+  integrity sha512-Gs7xVpIZ7tYYSDA+WgpzwpPvfGwUk3KSIjJ0akuj5XQHFdyQnsUoM76EA4CIHXNLPiVwTwOFay9RMb0ChG3OBw==
 
 end-of-stream@^1.1.0:
   version "1.4.4"
@@ -2833,9 +2833,9 @@ postcss-minify-gradients@^5.1.0:
     postcss-value-parser "^4.2.0"
 
 postcss-minify-params@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-5.1.0.tgz#e0b1f4e05cfd396682f612856485907e4064f25e"
-  integrity sha512-q67dcts4Hct6x8+JmhBgctHkbvUsqGIg2IItenjE63iZXMbhjr7AlVZkNnKtIGt/1Wsv7p/7YzeSII6Q+KPXRg==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-5.1.1.tgz#c5f8e7dac565e577dd99904787fbec576cbdbfb2"
+  integrity sha512-WCpr+J9Uz8XzMpAfg3UL8z5rde6MifBbh5L8bn8S2F5hq/YDJJzASYCnCHvAB4Fqb94ys8v95ULQkW2EhCFvNg==
   dependencies:
     browserslist "^4.16.6"
     cssnano-utils "^3.1.0"
