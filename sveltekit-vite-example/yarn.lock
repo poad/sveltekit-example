@@ -593,9 +593,9 @@
     esbuild "^0.14.21"
 
 "@sveltejs/kit@next":
-  version "1.0.0-next.297"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.297.tgz#9051b9dab9e2185f9555ef4c3c36499031381c2f"
-  integrity sha512-u2fQDMzPxz8gKreYRp7AYdWzlq0kdFeA/XAdKnsvvBirn2tAvo6OTJgIlMaKkflsQlUViDLWBLa/Kuw3bNYnPg==
+  version "1.0.0-next.298"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.298.tgz#69482a56979356fea650197ee56d5d2f63a62e6c"
+  integrity sha512-HUna2KgBc9NdeSCAqZBo6NUuRHab1tRMW6O3OtLvPs7ldSY+cEarDmUJb1ZeHwPrbcS2RTHSnBNNc0l+UyiFIw==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     sade "^1.7.4"
