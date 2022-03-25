@@ -444,10 +444,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/fira-mono@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.4.tgz#b4a1830e2345a09f6bc15cc2e928da5acae22aaf"
-  integrity sha512-uqtzmJEsGz1TMbOifu4YOn+iSXRnUhuWuRYj/BaTFFfoJGSdkGfdVNFRyJucbGgg4uFneOUKghpRMLlw0rsDIQ==
+"@fontsource/fira-mono@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.6.tgz#719b9c55fba655a4189477150fd5d89fac012ec3"
+  integrity sha512-sEt0MoN25QabXfq4xrtOyHQT257hNkJwR2Z10Y3xH9dEqH6Zlr9id7biiI+nwX1nnhgaywpnc7UH1cv/8t0VLA==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
