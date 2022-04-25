@@ -553,12 +553,12 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.36"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.36.tgz#72308705077627c9a746db9e1e5ad20573715edf"
-  integrity sha512-BCvSlz77Mz38K2sQUQ3YcudxJsOZprOmIW05rzPf5KrqidWa5CvPH2PdQ7XKX7CYgcZHqWioyYt8oxdXBCIulA==
+  version "1.0.0-next.38"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.38.tgz#e497947c8920fe6971da5871142043e2a2358ebd"
+  integrity sha512-1//aiV/Wzebj+j5X8VLRs0vJUT3andc/0+IRQwy5ykOwjpNo5/Mj2RX8SA+t5nxBFYyJJf2kj6sszKA8LjRAQQ==
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.18"
-    "@sveltejs/adapter-netlify" "1.0.0-next.53"
+    "@sveltejs/adapter-netlify" "1.0.0-next.55"
     "@sveltejs/adapter-vercel" "1.0.0-next.49"
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.18":
@@ -569,10 +569,10 @@
     esbuild "^0.14.21"
     worktop "0.8.0-next.12"
 
-"@sveltejs/adapter-netlify@1.0.0-next.53":
-  version "1.0.0-next.53"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.53.tgz#2406f317528a7840e48bc7293597c1072948d7d1"
-  integrity sha512-F35KBfdSbR2FXJWliTRj422Y8OAc3syx9vgVPO/bQRuqSnCpXmgxuUgmPZ73/skv3fS4QStXsXQGTnyV4Xs25A==
+"@sveltejs/adapter-netlify@1.0.0-next.55":
+  version "1.0.0-next.55"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.55.tgz#67d54a79b20ed5ef0606a05e9928283feb151531"
+  integrity sha512-LbqupuX8SdvUdCLSLiazPdU+JwwVhWGmoAopwlFkdlGOsGEag6jB+CjEYPmy81SVMSKxtYA2RqNzBPpPbURDtw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     esbuild "^0.14.21"
