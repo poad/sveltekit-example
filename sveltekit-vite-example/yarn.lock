@@ -2068,9 +2068,9 @@ internal-slot@^1.0.3:
     side-channel "^1.0.4"
 
 ip@^1.1.5:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.6.tgz#5a651a37644586e18b6ba3b48ca122bf56495f67"
-  integrity sha512-/dAvCivFs/VexXAtiAoMIqyhkhStNC9CPD0h1noonimOgB1xrCkexF2c5CjlqQ72GgMPjN6tiV+oreoPv3Ft1g==
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.7.tgz#4f6195d7bdb30435aac35301e7b993c6c8218c0d"
+  integrity sha512-SLm2ERgmBGag79RfrIknk+40ZOJCgUBpCQTl3WE2YER21VR0W3Vt/OAXXaYLSU0AIcBqWnytoTwk2ZcTbxH0xg==
 
 is-bigint@^1.0.1:
   version "1.0.4"
