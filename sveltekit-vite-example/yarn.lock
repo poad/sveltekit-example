@@ -2355,9 +2355,9 @@ svelte-preprocess@*, svelte-preprocess@^4.0.0:
     strip-indent "^3.0.0"
 
 svelte2tsx@*:
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.9.tgz#f2e67098f55b8ad129f863bb4f2e645a4c50b6ab"
-  integrity sha512-xTDASjlh+rKo4QRhTRYSH87sS7fRoyX67xhGIMPKa3FYqftRHRmMes6nVgEskiuhBovslNHYYpMMg5YM5n/STg==
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/svelte2tsx/-/svelte2tsx-0.5.10.tgz#32f244534361325e40f8976173ce2569c7e71fdb"
+  integrity sha512-nokQ0HTTWMcNX6tLrDLiOmJCuqjKZU9nCZ6/mVuCL3nusXdbp+9nv69VG2pCy7uQC66kV4Ls+j0WfvvJuGVnkg==
   dependencies:
     dedent-js "^1.0.1"
     pascal-case "^3.1.1"
