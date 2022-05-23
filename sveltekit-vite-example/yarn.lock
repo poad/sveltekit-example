@@ -108,13 +108,13 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.43"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.43.tgz#e01b63aedb48770b47fc171e51fc44a5cce9f37f"
-  integrity sha512-ihlAdfMWmqNbo1zHIT77HG/fBZSrAD/VBFbUjm41+7jb3XUg87tQsMbsd/SQ360IAA2atbwKc/1wNKQLfpahDw==
+  version "1.0.0-next.44"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.44.tgz#a7e505cf726629b9af810b102ce4e566d8158e7d"
+  integrity sha512-uTZDLMImGKRZRh2r5mRwmCvKyzldTGxTa9Ec12yxhaYGSvpg/TlCiwGAnX9ZemzTJtSZUU8dW3tJLrN0YPw3bg==
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.19"
     "@sveltejs/adapter-netlify" "1.0.0-next.58"
-    "@sveltejs/adapter-vercel" "1.0.0-next.52"
+    "@sveltejs/adapter-vercel" "1.0.0-next.53"
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.19":
   version "1.0.0-next.19"
@@ -133,12 +133,12 @@
     esbuild "^0.14.21"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-vercel@1.0.0-next.52":
-  version "1.0.0-next.52"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.52.tgz#d662c2bdf7ea841ab0bdc3f6c56d7c617d031bc2"
-  integrity sha512-HEGmOX1HPGAotmosms0k88sTG9LnPMEQkpmWoyMdcffsPcT45SkJepXP/lvqNNlbUl9epZX95nqyZVie/mauRA==
+"@sveltejs/adapter-vercel@1.0.0-next.53":
+  version "1.0.0-next.53"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.53.tgz#0c0894e413edc819ba254cc524d18ac276174277"
+  integrity sha512-MmeQxvUYP9UeNuVPd50ZeskzvIqIasyo1Ooa0SUPqoQ41IH+dnkT0+oGJplpX7Ii3gmTbJgleYkV6X6huWQESg==
   dependencies:
-    esbuild "^0.14.21"
+    esbuild "^0.14.29"
 
 "@sveltejs/kit@next":
   version "1.0.0-next.338"
@@ -903,7 +903,7 @@ esbuild-windows-arm64@0.14.39:
   resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.39.tgz#00268517e665b33c89778d61f144e4256b39f631"
   integrity sha512-sBZQz5D+Gd0EQ09tZRnz/PpVdLwvp/ufMtJ1iDFYddDaPpZXKqPyaxfYBLs3ueiaksQ26GGa7sci0OqFzNs7KA==
 
-esbuild@^0.14.21, esbuild@^0.14.27:
+esbuild@^0.14.21, esbuild@^0.14.27, esbuild@^0.14.29:
   version "0.14.39"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.14.39.tgz#c926b2259fe6f6d3a94f528fb42e103c5a6d909a"
   integrity sha512-2kKujuzvRWYtwvNjYDY444LQIA3TyJhJIX3Yo4+qkFlDDtGlSicWgeHVJqMUP/2sSfH10PGwfsj+O2ro1m10xQ==
