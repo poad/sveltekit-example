@@ -1,3 +1,4 @@
+import adapter from '@sveltejs/adapter-node';
 import preprocess from "svelte-preprocess";
 import { resolve } from "path";
 
@@ -12,6 +13,7 @@ const config = {
   ],
 
   kit: {
+    adapter: adapter({}),
     // hydrate the <div id="svelte"> element in src/app.html
     vite: () => ({
       resolve: {

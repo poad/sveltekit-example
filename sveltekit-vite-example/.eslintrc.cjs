@@ -1,50 +1,20 @@
 module.exports = {
   root: true,
-  env: {
-    es6: true,
-    browser: true
+  parser: '@typescript-eslint/parser',
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
+  plugins: ['svelte3', '@typescript-eslint'],
+  ignorePatterns: ['*.cjs'],
+  overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
+  settings: {
+    'svelte3/typescript': () => require('typescript')
+  },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2020
   },
   env: {
     browser: true,
-    node: true,
-    es2021: true,
-    jest: true
-  },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    },
-    project: './tsconfig.json',
-    ecmaVersion: 2019,
-    sourceType: 'module'
-  },
-  plugins: [
-    'svelte3'
-  ],
-  extends: [
-    'plugin:@typescript-eslint/recommended'
-  ],
-  overrides: [
-    {
-      files: ['*.svelte'],
-      processor: 'svelte3/svelte3'
-    }
-  ],
-  settings: {
-    react: {
-      version: "detect"
-    }
-  },
-  // add your custom rules here
-  rules: {
-    "@typescript-eslint/ban-types": [
-      "error",
-      {
-        "extendDefaults": true,
-        "types": {
-          "{}": false
-        }
-      }
-    ]
+    es2017: true,
+    node: true
   }
-}
+};
