@@ -109,13 +109,13 @@
     picomatch "^2.2.2"
 
 "@sveltejs/adapter-auto@next":
-  version "1.0.0-next.44"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.44.tgz#a7e505cf726629b9af810b102ce4e566d8158e7d"
-  integrity sha512-uTZDLMImGKRZRh2r5mRwmCvKyzldTGxTa9Ec12yxhaYGSvpg/TlCiwGAnX9ZemzTJtSZUU8dW3tJLrN0YPw3bg==
+  version "1.0.0-next.45"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.45.tgz#890f0e5f77d47778e5661277a0d4db991ceb93d8"
+  integrity sha512-lO1Ifm87jyWUU4SuIKvJ+eD3cW0tZcEWpTP66ga1uOEaJeFzxD/eNFbKAu2XiAQKLF7YRIFjiLBh8iyMPOu3IQ==
   dependencies:
     "@sveltejs/adapter-cloudflare" "1.0.0-next.19"
-    "@sveltejs/adapter-netlify" "1.0.0-next.58"
-    "@sveltejs/adapter-vercel" "1.0.0-next.53"
+    "@sveltejs/adapter-netlify" "1.0.0-next.59"
+    "@sveltejs/adapter-vercel" "1.0.0-next.54"
 
 "@sveltejs/adapter-cloudflare@1.0.0-next.19":
   version "1.0.0-next.19"
@@ -125,19 +125,20 @@
     esbuild "^0.14.21"
     worktop "0.8.0-next.13"
 
-"@sveltejs/adapter-netlify@1.0.0-next.58":
-  version "1.0.0-next.58"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.58.tgz#0ac415615cef6e8bf7b5bde91ebc2863a629f3c4"
-  integrity sha512-ZkL9mop/oTLfSj3tPCnTjQw7cKfoYLiptDzTypv7l+HDfE7SCFzJuK7YenjTMPoKTakFVfYAEEVIdJEySZt5MQ==
+"@sveltejs/adapter-netlify@1.0.0-next.59":
+  version "1.0.0-next.59"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.59.tgz#d76448d282d1a9f9da282ef88049409ab59db1ed"
+  integrity sha512-iDOxkUxgCKU1NyHX7QR7ywWYfpJaP9WptHedJCnNGoUgzs067KBdOofXmmawfDkFiFaruIB4MjYGA+SiMHwfKQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
-    esbuild "^0.14.21"
+    esbuild "^0.14.29"
+    set-cookie-parser "^2.4.8"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-vercel@1.0.0-next.53":
-  version "1.0.0-next.53"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.53.tgz#0c0894e413edc819ba254cc524d18ac276174277"
-  integrity sha512-MmeQxvUYP9UeNuVPd50ZeskzvIqIasyo1Ooa0SUPqoQ41IH+dnkT0+oGJplpX7Ii3gmTbJgleYkV6X6huWQESg==
+"@sveltejs/adapter-vercel@1.0.0-next.54":
+  version "1.0.0-next.54"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.54.tgz#f66be0571a237415cc13d0aa9dc56f2a65488a3a"
+  integrity sha512-DnKexL3QzUcJlxUE6Mhi9Re3McSfVwvCqyd1UcBDpJK6rLmu8ASlcB9o/FY5RJIF3A+agfeypcQ4OFQJQH0nPQ==
   dependencies:
     esbuild "^0.14.29"
 
@@ -2227,6 +2228,11 @@ semver@^7.3.7:
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
   dependencies:
     lru-cache "^6.0.0"
+
+set-cookie-parser@^2.4.8:
+  version "2.4.8"
+  resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.4.8.tgz#d0da0ed388bc8f24e706a391f9c9e252a13c58b2"
+  integrity sha512-edRH8mBKEWNVIVMKejNnuJxleqYE/ZSdcT8/Nem9/mmosx12pctd80s2Oy00KNZzrogMZS5mauK2/ymL1bvlvg==
 
 shebang-command@^2.0.0:
   version "2.0.0"
