@@ -1,7 +1,7 @@
 import { c as create_ssr_component } from "../../chunks/index-5d6c164c.js";
 const browser = false;
 const dev = false;
-var about_svelte_svelte_type_style_lang = "";
+var about_svelte_svelte_type_style_lang = /* @__PURE__ */ (() => ".content.svelte-t58uux{margin:var(--column-margin-top) auto 0 auto;max-width:var(--column-width);width:100%}")();
 const css = {
   code: ".content.svelte-t58uux{margin:var(--column-margin-top) auto 0 auto;max-width:var(--column-width);width:100%}",
   map: null
