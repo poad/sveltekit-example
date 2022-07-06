@@ -102,15 +102,14 @@
   dependencies:
     tiny-glob "^0.2.9"
 
-"@sveltejs/kit@^1.0.0-next.357":
-  version "1.0.0-next.357"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.357.tgz#da92d327a8ea3881ccb61318f5c5e89205ac02eb"
-  integrity sha512-nCAehVybIEpQNnPu61V/EFVdfDb1nBSiQUfW9EcSSDEUbyAMCVBOKZZuzQ0qQDp3xniqRkyDzpBA4wN+ADxHBw==
+"@sveltejs/kit@^1.0.0-next.359":
+  version "1.0.0-next.359"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.359.tgz#5b48f53955a677564f4054edb4799550fbda7e3b"
+  integrity sha512-3WH198JhOI9rmDlVSPPHlgg+/R/gS4x5cETjYsIw3XckpN2zExDqlYHUBUwk/dEG/12BfPB3rDMNzdZ0QHtubQ==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.48"
     chokidar "^3.5.3"
     sade "^1.8.1"
-    vite "^2.9.10"
 
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.48":
   version "1.0.0-next.49"
@@ -2020,7 +2019,7 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-vite@*, vite@^2.9.10:
+vite@*:
   version "2.9.13"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.13.tgz#859cb5d4c316c0d8c6ec9866045c0f7858ca6abc"
   integrity sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==
