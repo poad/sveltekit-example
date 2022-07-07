@@ -11,6 +11,7 @@ const config = {
       postcss: true,
     }),
   ],
+  plugins: [sveltekit()],
 
   kit: {
     adapter: adapter({}),
