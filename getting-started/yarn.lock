@@ -312,14 +312,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@sveltejs/adapter-auto@npm:1.0.1"
+"@sveltejs/adapter-auto@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@sveltejs/adapter-auto@npm:1.0.2"
   dependencies:
     import-meta-resolve: ^2.2.0
   peerDependencies:
     "@sveltejs/kit": ^1.0.0
-  checksum: 8e6dc10d84a442f35348d13e84fa920e374a68ac02378ebbc3cca42b8f1a7fa47125b7c1721112b0f127273a0d5b7d8667c6c16cc048b6093969c5f3156feb40
+  checksum: 46426b81164b2d60e0eb2880ca5caa4b8c5b0d0b6a1f2a8b6c2f4d5c9db326d775facfbd834e50b697629ca3e3a35138e021cf9d1cbf8215ab2820e5ed8ff001
   languageName: node
   linkType: hard
 
@@ -1452,7 +1452,7 @@ __metadata:
     "@fontsource/fira-mono": ^4.5.10
     "@neoconfetti/svelte": ^1.0.0
     "@playwright/test": ^1.29.2
-    "@sveltejs/adapter-auto": ^1.0.1
+    "@sveltejs/adapter-auto": ^1.0.2
     "@sveltejs/kit": ^1.1.4
     "@types/cookie": ^0.5.1
     "@typescript-eslint/eslint-plugin": ^5.48.2
