@@ -3073,9 +3073,9 @@ __metadata:
   linkType: hard
 
 "tinypool@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "tinypool@npm:0.3.0"
-  checksum: 92291c309ed8d004c1ee1ef7f610cd90352383f12c52b0ec16abd9ebc665c03626e7afbc9993df97f63e67fea002b5cc18ba5e8f90260643867cbcac278a183c
+  version: 0.3.1
+  resolution: "tinypool@npm:0.3.1"
+  checksum: 23af5f3889ccab1619a0459748bd419db52b5cbdfd409241f8d42993ace485af5fa4eb3d945e5c37f4b90690b727b7858696967b00b4292149b5d71fb5848185
   languageName: node
   linkType: hard
 
