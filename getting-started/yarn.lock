@@ -3079,9 +3079,9 @@ __metadata:
   linkType: hard
 
 "tinyspy@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "tinyspy@npm:1.0.2"
-  checksum: 32096121aa8d52bb625ad62c9314b3e4daba4ab9ac428217b12b1e1dfe9860e3c94d54a7affa279cc70dc6f10d88c6ba46b51de68896b318a06d02f05e87dcc3
+  version: 1.1.1
+  resolution: "tinyspy@npm:1.1.1"
+  checksum: 4ea908fdfddb92044c4454193ec543f5980ced0bd25c5b3d240a94c1511e47e765ad39cd13ae6d3370fb730f62038eedc357f55e4e239416e126bc418f0eee79
   languageName: node
   linkType: hard
 
