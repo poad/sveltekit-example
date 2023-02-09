@@ -1133,7 +1133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.16.14, esbuild@npm:^0.16.3":
+"esbuild@npm:^0.16.14":
   version: 0.16.17
   resolution: "esbuild@npm:0.16.17"
   dependencies:
@@ -2067,9 +2067,9 @@ __metadata:
   linkType: hard
 
 "minimist@npm:^1.2.0, minimist@npm:^1.2.6":
-  version: 1.2.7
-  resolution: "minimist@npm:1.2.7"
-  checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
+  version: 1.2.8
+  resolution: "minimist@npm:1.2.8"
+  checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
   languageName: node
   linkType: hard
 
@@ -2134,9 +2134,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "minipass@npm:4.0.1"
-  checksum: 48eb3141cc247b44f738944cbd789aedeed9288ebdb64c7de9b3bf23e9e71d611381bfecf643d877d25f7ca9f3d5ab7b6757ef6f46282086812ac5372b7cd291
+  version: 4.0.3
+  resolution: "minipass@npm:4.0.3"
+  checksum: a09f405e2f380ae7f6ee0cbb53b45c1fcc1b6c70fc3896f4d20649d92a10e61892c57bd9960a64cedf6c90b50022cb6c195905b515039c335b423202f99e6f18
   languageName: node
   linkType: hard
 
@@ -2441,7 +2441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.20, postcss@npm:^8.4.21":
+"postcss@npm:^8.4.21":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -2623,7 +2623,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.10.0, rollup@npm:^3.7.0":
+"rollup@npm:^3.10.0":
   version: 3.14.0
   resolution: "rollup@npm:3.14.0"
   dependencies:
@@ -3237,45 +3237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^3.0.0 || ^4.0.0":
-  version: 4.0.4
-  resolution: "vite@npm:4.0.4"
-  dependencies:
-    esbuild: ^0.16.3
-    fsevents: ~2.3.2
-    postcss: ^8.4.20
-    resolve: ^1.22.1
-    rollup: ^3.7.0
-  peerDependencies:
-    "@types/node": ">= 14"
-    less: "*"
-    sass: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.4.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: eb86c8cdfe8dcb6644005486b31cb60bc596f2aa683cb194abb5c0afca7c2a5dfdb02bbc7f83f419ad170227ac9c3b898f4406a6d1433105fb61d79d78e47d52
-  languageName: node
-  linkType: hard
-
-"vite@npm:^4.1.1":
+"vite@npm:^3.0.0 || ^4.0.0, vite@npm:^4.1.1":
   version: 4.1.1
   resolution: "vite@npm:4.1.1"
   dependencies:
