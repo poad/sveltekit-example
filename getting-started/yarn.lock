@@ -1756,9 +1756,9 @@ __metadata:
   linkType: hard
 
 "import-meta-resolve@npm:^2.2.0":
-  version: 2.2.1
-  resolution: "import-meta-resolve@npm:2.2.1"
-  checksum: 8dd5ff7f6e96dea13653cbf79457588b9850949fde0412dba3cc944f8a61a155a3713d65878d903af6b0db7da960600ef66dfe994311743cdd49fe33dc91b0c5
+  version: 2.2.2
+  resolution: "import-meta-resolve@npm:2.2.2"
+  checksum: 3a5910a6f914b5f06b307d7d1c25710bc56f12e21e923d5b2180dd0d53c6c2d51e7b55df26f168b63f5670babcaca9422b7a9429e877bbb8c1997d79bd65882b
   languageName: node
   linkType: hard
 
