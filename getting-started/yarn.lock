@@ -2194,14 +2194,14 @@ __metadata:
   linkType: hard
 
 "mlly@npm:^1.1.0, mlly@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "mlly@npm:1.1.1"
+  version: 1.2.0
+  resolution: "mlly@npm:1.2.0"
   dependencies:
     acorn: ^8.8.2
     pathe: ^1.1.0
-    pkg-types: ^1.0.1
-    ufo: ^1.1.0
-  checksum: 6bc4ffe0f4d061c7f6bd6bfe80c675eece0814ec3ac8efecbde2ecf337f31ddd78a8b35836ffcf66f37f17404a7cc094ab694122121b50f337bf435697f4ab9c
+    pkg-types: ^1.0.2
+    ufo: ^1.1.1
+  checksum: 640b019eb20e8e556bd623141b861d47e5c05f8af00210376ce1015912695dbd93a38cfe7ba18ca04f00e75645378f0f94a48a90bfa6e1b5dee1f0ec9c14eed1
   languageName: node
   linkType: hard
 
@@ -2444,7 +2444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg-types@npm:^1.0.1":
+"pkg-types@npm:^1.0.2":
   version: 1.0.2
   resolution: "pkg-types@npm:1.0.2"
   dependencies:
@@ -3182,7 +3182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.1.0":
+"ufo@npm:^1.1.1":
   version: 1.1.1
   resolution: "ufo@npm:1.1.1"
   checksum: 6bd210ed93d8c0dedd76c456b1d1dfb0e3b08c2216ee6080e61f0f545de0bac24b3d3a5530cd6a403810855f8d8fc3922583965296142e04cfc287442635e6c7
