@@ -360,10 +360,10 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:^1.15.8":
-  version: 1.15.8
-  resolution: "@sveltejs/kit@npm:1.15.8"
+  version: 1.15.9
+  resolution: "@sveltejs/kit@npm:1.15.9"
   dependencies:
-    "@sveltejs/vite-plugin-svelte": ^2.1.0
+    "@sveltejs/vite-plugin-svelte": ^2.1.1
     "@types/cookie": ^0.5.1
     cookie: ^0.5.0
     devalue: ^4.3.0
@@ -381,11 +381,11 @@ __metadata:
     vite: ^4.0.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 63c0f7aff9647c73e2bcd7fa9a1eadbfe182b32b0892b2b1a78047be0763817fe0b3a725e3ac3995ccdc894b33c135b7b9b1344a3567e882e61452d7fe56bfc1
+  checksum: 28b059feb6ed1dffad74bd41e952daa320323cfb165d23d5d8c91e9d1fad448fdbbcd69a4d030ce4d5ea888250682f3ab7f2ccdbb5357b3f3d315afa9263dfa5
   languageName: node
   linkType: hard
 
-"@sveltejs/vite-plugin-svelte@npm:^2.1.0":
+"@sveltejs/vite-plugin-svelte@npm:^2.1.1":
   version: 2.1.1
   resolution: "@sveltejs/vite-plugin-svelte@npm:2.1.1"
   dependencies:
@@ -2441,7 +2441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.21":
+"postcss@npm:^8.4.23":
   version: 8.4.23
   resolution: "postcss@npm:8.4.23"
   dependencies:
@@ -2590,7 +2590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.20.2, rollup@npm:^3.21.0":
+"rollup@npm:^3.21.0":
   version: 3.21.0
   resolution: "rollup@npm:3.21.0"
   dependencies:
@@ -3161,50 +3161,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^3.0.0 || ^4.0.0":
-  version: 4.3.1
-  resolution: "vite@npm:4.3.1"
+"vite@npm:^3.0.0 || ^4.0.0, vite@npm:^4.3.2":
+  version: 4.3.3
+  resolution: "vite@npm:4.3.3"
   dependencies:
     esbuild: ^0.17.5
     fsevents: ~2.3.2
-    postcss: ^8.4.21
-    rollup: ^3.20.2
-  peerDependencies:
-    "@types/node": ">= 14"
-    less: "*"
-    sass: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.4.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: e58ba33ec10af6167686c1c43c61f31fcbc6b3b6a1f16ed03fb6cc8278700c6edaf4ff394ef454291ee35924054c7772feac159f1acf3af1a33d289fe8494d9c
-  languageName: node
-  linkType: hard
-
-"vite@npm:^4.3.2":
-  version: 4.3.2
-  resolution: "vite@npm:4.3.2"
-  dependencies:
-    esbuild: ^0.17.5
-    fsevents: ~2.3.2
-    postcss: ^8.4.21
+    postcss: ^8.4.23
     rollup: ^3.21.0
   peerDependencies:
     "@types/node": ">= 14"
@@ -3231,7 +3194,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0194c06c44efa6fc2f81389d16d90cc3da8e7a58d071fe80e787053d604e0ea653e367fc6eb0528058d255c1ae72625396128561301add48b8e480c45343d11c
+  checksum: 99970cb1fed3330458e60f8341ec73c4260c82d815e51c95295321ab496e4c8cb447bc942daf4d94f78bbc8b2bed36cbc237f43fdc1cede19250fac737e5a0fc
   languageName: node
   linkType: hard
 
