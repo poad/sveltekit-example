@@ -1560,7 +1560,7 @@ __metadata:
     prettier: ^2.8.7
     prettier-plugin-svelte: ^2.10.0
     svelte: ^3.59.0
-    svelte-check: ^3.3.0
+    svelte-check: ^3.3.1
     tslib: ^2.5.0
     typescript: ^5.0.4
     vite: ^4.3.5
@@ -2863,9 +2863,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "svelte-check@npm:3.3.0"
+"svelte-check@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "svelte-check@npm:3.3.1"
   dependencies:
     "@jridgewell/trace-mapping": ^0.3.17
     chokidar: ^3.4.1
@@ -2879,7 +2879,7 @@ __metadata:
     svelte: ^3.55.0
   bin:
     svelte-check: bin/svelte-check
-  checksum: c1bac9fe375b086de32b4ed6dfec21d532563d5d583cea9c14141093f41bed2962b0acb546737ae40d1d98e001400196a3faaf0435d1da8ce850fc06d307aade
+  checksum: e79fdbac6f0f72a21c2d8c77b5229158a8993464bd600586207c9287bccf6a9091d1ff323cab03eeb467bb4d15cca90390342158f6add341f055e99077a7c301
   languageName: node
   linkType: hard
 
