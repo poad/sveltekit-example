@@ -2897,11 +2897,11 @@ __metadata:
   linkType: hard
 
 "svelte-hmr@npm:^0.15.1":
-  version: 0.15.1
-  resolution: "svelte-hmr@npm:0.15.1"
+  version: 0.15.2
+  resolution: "svelte-hmr@npm:0.15.2"
   peerDependencies:
-    svelte: ">=3.19.0"
-  checksum: af2e5c356ed6467d6567ce1b908bc077c9d08a89f3ffda81e63989c1c3f374a88b1b67453e86e3674320aa10e7cdf42a10dc551900997b627b4702db447f2bf3
+    svelte: ^3.19.0 || ^4.0.0-next.0
+  checksum: bf1179de47100353ef002d96e2b20782420a388cc5a451a1c3564643fde0423ac7b689a4cded728a6dee5e30a80e44089790be4bf5c37189b14704bf8a6efaf6
   languageName: node
   linkType: hard
 
