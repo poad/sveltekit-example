@@ -21,7 +21,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules yarn.lock .yarn/cache && touch yarn.lock && yarn install && yarn up -R && yarn build
+pnpm install -r && pnpm up -r && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}" || exit
