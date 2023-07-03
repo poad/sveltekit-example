@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@fontsource/fira-mono':
-    specifier: ^5.0.3
-    version: 5.0.3
+    specifier: ^5.0.4
+    version: 5.0.4
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -305,8 +305,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/fira-mono@5.0.3:
-    resolution: {integrity: sha512-AN08SykeaFazTC0d0HHOZeQ3jmHyn2Qs5bGEjhxuNp9NjUqg9rL8x+LxrXWdVIo8PBg0xbnkcA3KR6RVvQeRAg==}
+  /@fontsource/fira-mono@5.0.4:
+    resolution: {integrity: sha512-Qe4WNf6IAoV1h0a5VOSnVYQTRl2Rizx3GFJcVhC7PknsxOksl+6r2bQomltTgcVjJ0M50M/8OxYbnckr289TYw==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.10:
