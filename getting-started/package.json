@@ -13,14 +13,14 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@fontsource/fira-mono": "^5.0.3",
+		"@fontsource/fira-mono": "^5.0.4",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.35.1",
 		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.21.0",
 		"@types/cookie": "^0.5.1",
 		"@typescript-eslint/eslint-plugin": "^5.61.0",
-		"@typescript-eslint/parser": "^5.60.1",
+		"@typescript-eslint/parser": "^5.61.0",
 		"eslint": "^8.44.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-svelte3": "^4.0.0",
@@ -31,7 +31,7 @@
 		"tslib": "^2.6.0",
 		"typescript": "^5.1.6",
 		"vite": "^4.3.9",
-		"vitest": "^0.32.2"
+		"vitest": "^0.32.4"
 	},
 	"type": "module"
 }
