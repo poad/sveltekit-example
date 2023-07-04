@@ -653,7 +653,7 @@ packages:
     dependencies:
       magic-string: 0.30.0
       pathe: 1.1.1
-      pretty-format: 29.5.0
+      pretty-format: 29.6.0
     dev: true
 
   /@vitest/spy@0.32.4:
@@ -667,7 +667,7 @@ packages:
     dependencies:
       diff-sequences: 29.4.3
       loupe: 2.3.6
-      pretty-format: 29.5.0
+      pretty-format: 29.6.0
     dev: true
 
   /acorn-jsx@5.3.2(acorn@8.9.0):
@@ -1561,8 +1561,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pretty-format@29.5.0:
-    resolution: {integrity: sha512-V2mGkI31qdttvTFX7Mt4efOqHXqJWMu4/r66Xh3Z3BwZaPfPJgp6/gbwoujRpPUtfEF6AUUWx3Jim3GCw5g/Qw==}
+  /pretty-format@29.6.0:
+    resolution: {integrity: sha512-XH+D4n7Ey0iSR6PdAnBs99cWMZdGsdKrR33iUHQNr79w1szKTCIZDVdXuccAsHVwDBp0XeWPfNEoaxP9EZgRmQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/schemas': 29.6.0
