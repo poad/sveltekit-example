@@ -11,7 +11,7 @@ updates:
       - poad
 
   - package-ecosystem: npm
-    directory: '/getting-started/'
+    directory: '/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -20,3 +20,7 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      sveltekit:
+        patterns:
+          - '*'

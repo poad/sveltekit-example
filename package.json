@@ -21,7 +21,7 @@
 		"@types/cookie": "^0.5.2",
 		"@typescript-eslint/eslint-plugin": "^5.62.0",
 		"@typescript-eslint/parser": "^5.62.0",
-		"eslint": "^8.48.0",
+		"eslint": "^8.49.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^2.8.8",
@@ -31,7 +31,7 @@
 		"tslib": "^2.6.2",
 		"typescript": "^5.2.2",
 		"vite": "^4.4.9",
-		"vitest": "^0.34.3"
+		"vitest": "^0.34.4"
 	},
 	"type": "module"
 }
