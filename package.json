@@ -13,7 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@fontsource/fira-mono": "^5.0.15",
+		"@fontsource/fira-mono": "^5.1.0",
 		"@neoconfetti/svelte": "^2.2.1",
 		"@playwright/test": "^1.47.0",
 		"@sveltejs/adapter-auto": "^3.2.4",
@@ -28,7 +28,7 @@
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.2.6",
 		"svelte": "^4.2.19",
-		"svelte-check": "^4.0.1",
+		"svelte-check": "^4.0.2",
 		"tslib": "^2.7.0",
 		"typescript": "^5.6.2",
 		"vite": "^5.4.4",
