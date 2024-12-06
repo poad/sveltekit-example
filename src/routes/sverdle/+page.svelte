@@ -4,18 +4,16 @@
 	import type { PageData, ActionData } from './$types';
 	import { reduced_motion } from './reduced-motion';
 
-	export let data: PageData;
-
-	export let form: ActionData;
+	let { data, form }: { data: PageData; form: ActionData } = $props();
 
 	/** Whether or not the user has won */
-	$: won = data.answers.at(-1) === 'xxxxx';
+	const won = $derived(data.answers.at(-1) === 'xxxxx');
 
 	/** The index of the current guess */
-	$: i = won ? -1 : data.answers.length;
+	const i = $derived(won ? -1 : data.answers.length);
 
 	/** Whether the current guess can be submitted */
-	$: submittable = data.guesses[i]?.length === 5;
+	const submittable = $derived(data.guesses[i]?.length === 5);
 
 	/**
 	 * A map of classnames for all letters that have been guessed,
@@ -29,10 +27,7 @@
 	 */
 	let description: Record<string, string>;
 
-	$: {
-		classnames = {};
-		description = {};
-
+	$effect(() => {
 		data.answers.forEach((answer, i) => {
 			const guess = data.guesses[i];
 
@@ -48,7 +43,7 @@
 				}
 			}
 		});
-	}
+	});
 
 	/**
 	 * Modify the game state without making a trip to the server,
@@ -56,9 +51,7 @@
 	 */
 	function update(event: MouseEvent) {
 		const guess = data.guesses[i];
-		const key = (event.target as HTMLButtonElement).getAttribute(
-			'data-key'
-		);
+		const key = (event.target as HTMLButtonElement).getAttribute('data-key');
 
 		if (key === 'backspace') {
 			data.guesses[i] = guess.slice(0, -1);
@@ -147,7 +140,10 @@
 				<button data-key="enter" class:selected={submittable} disabled={!submittable}>enter</button>
 
 				<button
-					on:click|preventDefault={update}
+					onclick={(e) => {
+						e.preventDefault();
+						update(e);
+					}}
 					data-key="backspace"
 					formaction="?/update"
 					name="key"
@@ -160,7 +156,10 @@
 					<div class="row">
 						{#each row as letter}
 							<button
-								on:click|preventDefault={update}
+								onclick={(e) => {
+									e.preventDefault();
+									update(e);
+								}}
 								data-key={letter}
 								class={classnames[letter]}
 								disabled={data.guesses[i].length === 5}
@@ -189,7 +188,7 @@
 			stageHeight: window.innerHeight,
 			colors: ['#ff3e00', '#40b3ff', '#676778']
 		}}
-	/>
+	></div>
 {/if}
 
 <style>
