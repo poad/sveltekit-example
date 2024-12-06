@@ -7,7 +7,7 @@
 	<Header />
 
 	<main>
-		<slot />
+		<Header></Header>
 	</main>
 
 	<footer>
